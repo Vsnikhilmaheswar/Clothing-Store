@@ -13,7 +13,7 @@
 </head>
 <body>
 
-    <!-- navbar -->
+  <!-- navbar -->
   <div class="body">
     <nav class="navbar navbar-expand-lg bg-body-secondary shadow" id="nav">
         <div class="container-fluid">
@@ -30,10 +30,10 @@
                 <a class="nav-link text-black" href="navhome.html">Men's</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-black" href="navhome.html">Women's</a>
+                <a class="nav-link text-black" href="#navhome.html">Women's</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-black" href="navhome.html">Kid's</a>
+                <a class="nav-link text-black" href="#navhome.html">Kid's</a>
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -52,7 +52,7 @@
                 </li>
                 
                 <li class="nav-item">
-                  <a href="cart.html"><i class="fa-solid fa-cart-shopping me-3"></i></a></i>
+                    <a href="cart.html"><i class="fa-solid fa-cart-shopping me-3"></i></a>
                 </li>
                 
               </li>
@@ -63,98 +63,53 @@
         </div>
       </nav>
       </div>
-      <h1>   </h1><br>
-    
-    <div class="container mt-5">
-        <h4 class=" fs-2 text-center p-3 " style="font-style: italic; font-weight:200 ; color: #091a3c; background-color:#a8dadc;">My Wishlist</h4>
-        
-    
-<div class="row " s>
-    <div class="col-lg-3 col-sm-6 mb-2">
-        <div class="card text-center shadow mt-3" style="width:100%;" >
-            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shirt/q/o/e/l-1149-paralians-original-imah4ngfnadjv5gg.jpeg?q=70" class="card-img-top img-fluid p-4" alt="...">
-            <div class="card-body m-0 p-0">
-              <h5 class="card-title text-center ">Paralians</h5>
-              <p class="fs-6 m-0">Men Relaxed Fit Fit Self Design Mandarin Collar Casual Shirt </p>
-              <h6 class="p-0 m-0">MRP : $ 299</h6>
-              <a href="cart.html" class="btn btn-primary m-3" style="
-              background-color: #091a3c;
-              color: #a8dadc;
-              font-weight: bolder;
-              border-radius: 20px;
-            "  >Move to Cart</a>  <i class="fa-solid fa-trash"></i>  
+
+  <!-- Contact Page -->
+  <h1>   </h1><br><br>
+  <div class="container contact-page">
+    <!-- Contact Header -->
+    <div class="contact-header">
+      <h1>Contact Us</h1>
+      <p>Have a question? We'd love to hear from you!</p>
+    </div><br>
+
+    <!-- Contact Form Section -->
+    <div class="row">
+      <div class="col-md-6">
+        <div class="contact-form">
+          <h3>Send us a message</h3>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Full Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
             </div>
-          </div>
-    </div>
-    <div class="col-lg-3 col-sm-6 mb-2">
-        <div class="card text-center shadow mt-3" style="width:100%;" >
-            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/sari/b/n/c/free-virat01-divastri-unstitched-original-imah3jfjbevtn4ts.jpeg?q=70" class="card-img-top img-fluid p-4" alt="...">
-            <div class="card-body m-0 p-0">
-              <h5 class="card-title text-center ">Divastri  </h5>
-              <p class="fs-6 m-0">Divastri Embellished Bollywood  Saree  </p>
-              <h6 class="p-0 m-0">MRP : $ 416</h6>
-              <a href="cart.html" class="btn btn-primary m-3" style="
-              background-color: #091a3c;
-              color: #a8dadc;
-              font-weight: bolder;
-              border-radius: 20px;
-            "  >Move to Cart</a> <i class="fa-solid fa-trash"></i>  
+            <div class="mb-3">
+              <label for="email" class="form-label">Email Address</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
             </div>
-          </div>
-    </div>
-    <div class="col-lg-3 col-sm-6 mb-2">
-        <div class="card text-center shadow mt-3" style="width:100%;" >
-            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/shopsy-track-pant/e/e/l/xxl-solid-gym-wear-track-pant-yazole-original-imah2gjg8tmrgkcm.jpeg?q=70" class="card-img-top img-fluid p-4" alt="...">
-            <div class="card-body m-0 p-0">
-              <h5 class="card-title text-center ">Yazole </h5>
-              <p class="fs-6 m-0">Pack of 2 Men Solid Grey Track Pants</p>
-              <h6 class="p-0 m-0">MRP : $ 199</h6>
-              <a href="cart.html" class="btn btn-primary m-3" style="
-              background-color: #091a3c;
-              color: #a8dadc;
-              font-weight: bolder;
-              border-radius: 20px;
-            "  >Move to Cart</a> <i class="fa-solid fa-trash"></i>  
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Enter your message" required></textarea>
             </div>
-          </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div><br><br>
+
+      <!-- Contact Information Section -->
+      <div class="col-md-6">
+        <div class="contact-info">
+          <h3>Our Contact Information</h3>
+          <p><strong>Address:</strong> 123 E-commerce , City, Country</p>
+          <p><strong>Phone:</strong> +1 234 567 890</p>
+          <p><strong>Email:</strong> abcdefg@gmail.com</p>
+        </div>
+      </div>
     </div>
-    <div class="col-lg-3 col-sm-6 mb-2">
-        <div class="card text-center shadow mt-3" style="min-width: 270px;" >
-            <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/track-pant/b/c/t/xl-vm-1557489-14081-v-mart-original-imah6hw2bdxuzudp.jpeg?q=70" class="card-img-top img-fluid p-4" alt="...">
-            <div class="card-body m-0 p-0">
-              <h5 class="card-title text-center ">V-MART </h5>
-              <p class="fs-6 m-0">Men Solid Brown Track <br> Pants </p>
-              <h6 class="p-0 m-0">MRP : $ 99</h6>
-              <a href="cart.html" class="btn btn-primary m-3" style="
-              background-color: #091a3c;
-              color: #a8dadc;
-              font-weight: bolder;
-              border-radius: 20px;
-            "  >Move to Cart</a> <i class="fa-solid fa-trash"></i>  
-            </div>
-          </div>
-    </div>
-
-
-
-
- </div>
-
-</div>
-
-    </div>
-  </body>
-
-  <style>
-    body{
-        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        background-color: #f9f9f9;
-    }
-  </style>
-    
-
+  </div>
+  <br><br>
   <!-- footer -->
-  <footer class="footer mt-3"><br><br><br>
+  <footer class="footer"><br><br><br>
     <div class="container">
         <div class="row">
             <div class="footer-col">

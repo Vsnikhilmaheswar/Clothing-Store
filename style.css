@@ -1,0 +1,284 @@
+
+
+
+
+
+/* navbar */
+.navbar-nav{
+	margin-left: 40%;
+}
+#nav{
+  position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		z-index: 10;
+		padding: 10px 0;
+}
+.nav-item{
+	margin-left: 30px;
+	font-size: 19px;
+	font-family: serif;
+	font-weight: bold;
+}
+.dropdown-menu{
+	font-size: 17px;
+	font-family: serif;
+	font-weight: bold;
+}
+.nav-link:hover{
+background-color: aquamarine;
+
+}
+.dropdown-menu:hover{
+	background-color: aquamarine;
+}
+.fa-solid{
+	color: black;
+	margin-left: 30px;
+	font-size: 19px;
+	margin-top: 12px;
+}
+.fa-solid:hover{
+color: aquamarine;
+}
+.navbar-brand{
+	font-family: Fantasy Papyrus;
+	font-size: 30px;
+	margin-left: 20px;
+	font-weight: bold;
+}
+span{
+	color: rgb(0, 106, 255);
+}
+@media screen and (max-width:992px){
+.nav-item i{
+	display: none;
+}
+}
+.img-fluid{
+width: 310px;
+height: 200px;
+}
+input{
+width: 300px;
+height: 40px;
+}
+.main-dark-button{
+width: 40px;
+height: 40px;
+}
+
+
+
+body {
+	background-color: #f8f9fa;
+  }
+
+  .card {
+	border: none;
+  }
+
+  .card-header {
+	background-color: #091A3C;
+	color: #fff;
+  }
+
+  .btn-primary {
+	background-color: #091a3c ;
+	border: none;
+	color: #a8dadc;
+	font-weight: bold;
+  }
+
+  .btn-primary:hover {
+	background-color: #a8dadc;
+	color:#091a3c
+  }
+  body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+
+/* Styling for the background section */
+.hero-section {
+	background: url('https://agentestudio.com/uploads/post/image/91/main_fashion-website-design-cover.jpg') no-repeat center center;
+	background-size: cover;
+	height: 300px;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+}
+
+.hero-section h1 {
+	font-size: 2.5rem;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.hero-section p {
+	font-size: 1.2rem;
+	margin-top: 5px;
+}
+
+/* Styling for the About section */
+.about-section {
+	padding: 50px 0;
+	margin-top: 10px;
+}
+
+.about-section img {
+	max-width: 100%;
+	border-radius: 10px;
+}
+
+.about-section h3 {
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.about-section p {
+	font-size: 1rem;
+	color: #555;
+}
+
+
+
+.quote {
+	margin-top: 20px;
+	font-style: italic;
+	color: #777;
+}
+
+@media screen and (max-width:992px){
+.nav-item i{
+display: none;
+}
+}
+
+/* Custom CSS */
+.contact-page {
+    background-color: white;
+    padding: 50px 0;
+  }
+  .contact-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  .contact-form input, .contact-form textarea {
+    margin-bottom: 20px;
+  }
+  .contact-info {
+    margin-top: 50px;
+    text-align: center;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color:rgb(8, 16, 55);
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: white;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+    
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: white;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: white;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: white;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #173787;
+	background-color: white;
+}
+.copy-right-sec{
+	padding: 1.8rem;
+    background: rgb(8, 16, 55);
+    color: white;
+    text-align: center;
+}
+.copy-right-sec a{
+	color: yellow;
+    font-weight: 500;
+}
+a{
+  text-decoration:none;
+}
+
+
+/* /responsive/ */
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}

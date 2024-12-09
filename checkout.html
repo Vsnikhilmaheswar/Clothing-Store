@@ -1,43 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Checkout Page</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    body {
-      background-color: #f8f9fa;
-    }
-
-    .card {
-      border: none;
-    }
-
-    .card-header {
-      background-color: #091A3C;
-      color: #fff;
-    }
-
-    .btn-primary {
-      background-color: #091a3c ;
-      border: none;
-      color: #a8dadc;
-      font-weight: bold;
-    }
-
-    .btn-primary:hover {
-      background-color: #a8dadc;
-      color:#091a3c
-    }
-    body{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    }
-  </style>
+  <title>Contact Us - E-commerce</title>
+  <!-- Bootstrap CSS Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
 </head>
-
 <body>
+
+    <!-- navbar -->
+  <div class="body">
+    <nav class="navbar navbar-expand-lg bg-body-secondary shadow" id="nav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="navhome.html"><span>H</span>AYA</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-lg-center">
+              <li class="nav-item">
+                <a class="nav-link text-black" aria-current="page" href="navhome.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="navhome.html">Men's</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="navhome.html">Women's</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-black" href="navhome.html">Kid's</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-black" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Pages
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="about.html">About Us</a></li>
+                  <li><a class="dropdown-item" href="checkout.html">Checkout</a></li>
+                  <li><a class="dropdown-item" href="cart.html">Cart</a></li>
+                  <li><a class="dropdown-item" href="service.html">Service</a></li>
+                  <li><a class="dropdown-item" href="wishlist.html">Wishlist</a></li>
+                  <li><a class="dropdown-item" href="contact.html">Contact Us</a></li>
+                </ul>
+                <li class="nav-item">
+                    <a class="nav-link text-black" href="login.html">Login</a>
+                </li>
+                
+                <li class="nav-item">
+                  <a href="cart.html"><i class="fa-solid fa-cart-shopping me-3"></i></a></i>
+                </li>
+                
+              </li>
+              
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+      </div>
+      <h1>   </h1><br><br>
   <div class="container my-5">
     <div class="row">
       <div class="col-lg-8">
@@ -122,7 +148,6 @@
     </div>
   </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script>const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
     const appendAlert = (message, type) => {
       const wrapper = document.createElement('div')
@@ -142,6 +167,61 @@
         appendAlert('Order Placed ', 'success')
       })
     }</script>
-</body>
+    
 
+  <!-- footer -->
+  <footer class="footer"><br><br><br>
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>company</h4>
+                <ul>
+                    <li><a href="#">about us</a></li>
+                    <li><a href="#">our services</a></li>
+                    <li><a href="#">privacy policy</a></li>
+                    <li><a href="#">affiliate program</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>get help</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">shipping</a></li>
+                    <li><a href="#">returns</a></li>
+                    <li><a href="#">order status</a></li>
+                    <li><a href="#">payment options</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>online shop</h4>
+                <ul>
+                    <li><a href="#">Shirt</a></li>
+                    <li><a href="#">Jeans</a></li>
+                    <li><a href="#">T shirt</a></li>
+                    <li><a href="#"></a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>follow us</h4>
+                <div class="social-links">
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://x.com/?lang=en-in"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<section id="copy-right">
+    <div class="copy-right-sec"><i class="fa-solid fa-copyright"></i>  
+        2024 Clothing Store. All Rights Reserved.
+    </div>
+</section>
+
+
+  <!-- Bootstrap JS and Dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+</body>
 </html>
